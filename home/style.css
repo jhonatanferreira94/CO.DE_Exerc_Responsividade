@@ -446,9 +446,78 @@ footer {
         fill: var(--branco);
     }
 
+    .posicionamento_header{
+        position: relative;
+    }
+
     .posicionamento_header nav{
         display: none;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-image: linear-gradient(to bottom, #060821ea 70%, #c12d6d3d);
+        flex-direction: column;
+        z-index: 1;
+        padding: 15px 0;
+
+      
+        backdrop-filter: blur(8px);
+        border-radius: 0 0 10px 10px;
+
     }
+
+    header nav a{
+        margin: 15px 0;
+    }
+
+
+    /* FOOTER*/
+
+    .rodape_conteudo{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        
+    }
+
+    .rodape_conteudo_contatos{
+        align-items: center;
+        order: 2;
+    }
+
+
+    .rodape_conteudo_paginas{
+        order: 3;
+    }
+
+    .rodape_conteudo img{
+        order: 1;
+    }
+
+    
+
+    /* img card */
+
+    .span_dicas img{
+        display: none;
+    }
+
+    .span_dicas{
+        
+        display: flex;
+        justify-content: center;
+
+    }
+    
+
+    .span_dicas p{
+        text-align: center;
+    }
+
+
+
+
+
 
 
     
